@@ -6,7 +6,7 @@ Make connections as shown in the figure:
 ![image](https://github.com/user-attachments/assets/78ef98ca-e857-46f3-9b7b-a7125d76a78a)
 
 Refer to this link for detailed documentation:
-\n https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/assembly-and-connection
+<br /> https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/assembly-and-connection
 
 1. Power the Herelink Air Unit with a recommended power supply with minimum 6V supply (Recommended: 7V - 12V; 4W).
 2. Turn on the Herelink Transmitter and connect to the drone via QGC.
