@@ -21,3 +21,5 @@ In ```terminal ``` if using ```Linux``` or ```Command Prompt``` if using ```Wind
 ```
 python3 herelink.py
 ```
+
+Refer https://chatgpt.com/share/67c2c947-93bc-8002-8072-b4ed4c4a010f for common issues

@@ -1,0 +1,42 @@
+2025-02-28 19:37:17,147 - INFO - -----------------------------------------------
+2025-02-28 19:37:17,147 - INFO - Connecting to drone...
+2025-02-28 19:37:19,415 - INFO - Heartbeat received! Drone is online.
+2025-02-28 19:37:19,416 - INFO - Generating grid...
+2025-02-28 19:37:19,416 - INFO - Mission Begins
+2025-02-28 19:37:19,417 - INFO - GUIDED Mode
+2025-02-28 19:37:19,417 - INFO - Mode change command sent for mode ID 4
+2025-02-28 19:37:19,443 - INFO - Mode successfully changed to ID 4
+2025-02-28 19:37:21,444 - INFO - Arming motors...
+2025-02-28 19:37:23,451 - INFO - Initiating takeoff to 15 meters...
+2025-02-28 19:37:23,452 - INFO - Takeoff command sent.
+2025-02-28 19:37:23,456 - INFO - Altitude: 0.40 meters
+2025-02-28 19:37:23,962 - INFO - Altitude: 0.34 meters
+2025-02-28 19:37:24,466 - INFO - Altitude: 0.38 meters
+2025-02-28 19:37:24,973 - INFO - Altitude: 0.31 meters
+2025-02-28 19:37:25,476 - INFO - Altitude: 0.34 meters
+2025-02-28 19:37:25,980 - INFO - Altitude: 0.40 meters
+2025-02-28 19:37:26,485 - INFO - Altitude: 0.32 meters
+2025-02-28 19:37:26,988 - INFO - Altitude: 0.29 meters
+2025-02-28 19:37:27,492 - INFO - Altitude: 0.34 meters
+2025-02-28 19:37:27,996 - INFO - Altitude: 0.41 meters
+2025-02-28 19:37:28,500 - INFO - Altitude: 0.42 meters
+2025-02-28 19:37:29,004 - INFO - Altitude: 0.43 meters
+2025-02-28 19:37:29,509 - INFO - Altitude: 0.52 meters
+2025-02-28 19:37:30,012 - INFO - Altitude: 0.38 meters
+2025-02-28 19:37:30,517 - INFO - Altitude: 0.39 meters
+2025-02-28 19:37:31,022 - INFO - Altitude: 0.45 meters
+2025-02-28 19:37:31,524 - INFO - Altitude: 0.45 meters
+2025-02-28 19:37:32,029 - INFO - Altitude: 0.34 meters
+2025-02-28 19:37:32,053 - ERROR - Mission interrupted by user.
+2025-02-28 19:37:32,054 - INFO - Mission Time: 12.64 seconds
+2025-02-28 20:05:20,633 - INFO - -----------------------------------------------
+2025-02-28 20:05:20,633 - INFO - Connecting to drone...
+2025-02-28 20:05:22,924 - INFO - Heartbeat received! Drone is online.
+2025-02-28 20:05:22,925 - INFO - Generating grid...
+2025-02-28 20:05:22,925 - INFO - Mission Begins
+2025-02-28 20:05:22,926 - INFO - GUIDED Mode
+2025-02-28 20:05:22,927 - INFO - Mode change command sent for mode ID 4
+2025-02-28 20:05:22,957 - INFO - Mode successfully changed to ID 4
+2025-02-28 20:05:24,959 - INFO - Arming motors...
+2025-02-28 20:05:26,335 - ERROR - Mission interrupted by user.
+2025-02-28 20:05:26,335 - INFO - Mission Time: 3.41 seconds

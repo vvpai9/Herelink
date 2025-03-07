@@ -299,7 +299,7 @@ def mission():
         grid = generate_grid(geofence, x_divisions, y_divisions)
         logging.info("Mission Begins")
 
-        # Arm and takeoff to 3 meters
+        # Arm and takeoff to 15 meters
         arm_and_takeoff(altitude)
         time.sleep(2)
 
