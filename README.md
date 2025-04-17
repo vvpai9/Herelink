@@ -8,12 +8,14 @@ Make connections as shown in the figure:
 Refer to this link for detailed documentation:
 <br /> https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/assembly-and-connection
 
+If you are slightly deviating from the above image or documentation in connections, make sure to have a common ground between the flight controller and the Herelink Air Unit. This is required for communication through UART. Otherwise, you will not be able to connect to your drone.
+
 1. Power the Herelink Air Unit with a recommended power supply with minimum 6V supply (Recommended: 7V - 12V; 4W).
 2. Turn on the Herelink Transmitter and connect to the drone via QGC.
 3. Connect the laptop to the Transmitter via ```herelink``` hotspot. Connect Mission Planner via laptop through herelink via UDP.
 4. The drone will now be publishing telemetry on ```udpout:192.168.144.10:14552``` by default if the herelink is not connected to the internet. If connected to the internet, the IP address and port may vary. Go to  ```Settings -> About Phone -> Status -> IP Address```.
 5. The default ```baud_rate``` is  ```115200```. This can be changed based on the baudrate supported by the flight controller.
-6. These scripts are tested on Python 3.11.9
+6. These scripts are tested in Python 3.11.9
 
 Requirements:
 1. Python 3.9 or higher. (Python 3.13 or higher versions currently do not support all the functionalities)
