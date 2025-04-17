@@ -584,20 +584,17 @@ def mission():
     try:
         # Mission sequence
         global stop_rtsp, stop_detection
-        # rtsp_thread = threading.Thread(target=rtsp_stream)
+        rtsp_thread = threading.Thread(target=rtsp_stream)
         start_time = time.time()
         grid = generate_grid(geofence, x_divisions, y_divisions)
         logging.info("Mission Begins")
-        # rtsp_thread.start()
-        # detection_thread = threading.Thread(target=detectionClassify)
+        rtsp_thread.start()
+        detection_thread = threading.Thread(target=detectionClassify)
     
         # Arm and takeoff to 15 meters
         arm_and_takeoff(altitude)
-        # detection_thread.start()
-        # serpentine_path(grid)
-
-        # Wait for 3 seconds
-        # go_to_location(15.367808276128258, 75.12540728300411, altitude)
+        detection_thread.start()
+        serpentine_path(grid)
         time.sleep(1)
 
         logging.info("RTL Mode")
@@ -624,8 +621,8 @@ def mission():
         stop_detection = True
         stop_rtsp = True
         end_time = time.time()
-        # detection_thread.join()
-        # rtsp_thread.join()
+        detection_thread.join()
+        rtsp_thread.join()
         cv2.destroyAllWindows()
         mission_time = end_time - start_time
         logging.info(f"Mission Time: {int(mission_time // 60)} minutes {int(mission_time % 60)} seconds")
