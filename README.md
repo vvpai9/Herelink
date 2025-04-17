@@ -8,7 +8,7 @@ Make connections as shown in the figure:
 Refer to this link for detailed documentation:
 <br /> https://docs.cubepilot.org/user-guides/herelink/herelink-user-guides/assembly-and-connection
 
-If you are slightly deviating from the above image or documentation in connections, make sure to have a common ground between the flight controller and the Herelink Air Unit. This is required for communication through UART. Otherwise, you will not be able to connect to your drone.
+If you are slightly deviating from the above image or documentation in connections, make sure to have a common GND connection between the flight controller and the Herelink Air Unit. This is required for communication through UART. Otherwise, you will not be able to connect to your drone.
 
 1. Power the Herelink Air Unit with a recommended power supply with minimum 6V supply (Recommended: 7V - 12V; 4W).
 2. Turn on the Herelink Transmitter and connect to the drone via QGC.
