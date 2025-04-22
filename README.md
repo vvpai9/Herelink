@@ -29,6 +29,5 @@ python3 <script_name>.py
 Replace ```<script_name>``` by the name of the script you want to run.
 1. ```herelink_basic.py``` allows you to run basic functionalities which can be later combined for performing autnomous missions.
 2. ```herelink_test.py``` is a test script. It attempts to connect to the drone using MAVLink and tries to fetch its home location and print it. It is highly recommended to run this script after appropriate connections.
-3. ```herelink.py``` executes an autonomous survey and payload drop to a target site using a TensorFlow Lite custom trained model for surveillance and target detection using RTSP stream of the camera.
 
 Refer https://chatgpt.com/share/67c2c947-93bc-8002-8072-b4ed4c4a010f for common issues
