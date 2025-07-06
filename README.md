@@ -1,4 +1,4 @@
-# Herelink
+# Herelink System Setup
 This repository guides the reader to interface Herelink with PixHawk and run autonomous missions through Python scripts.
 
 Make connections as shown in the figure:
